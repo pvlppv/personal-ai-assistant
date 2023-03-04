@@ -5,7 +5,7 @@ import pygame
 import openai
 
 
-openai.api_key = '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'
+openai.api_key = ''
 
 def takeCommand():
     r = sr.Recognizer()
