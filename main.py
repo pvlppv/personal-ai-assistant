@@ -41,12 +41,6 @@ def speak(data):
 
             while pygame.mixer.music.get_busy():
                 pygame.time.Clock().tick(10)
-                # try:
-                #     if 'макар' in takeCommand().lower():
-                #         pygame.mixer.music.stop()
-                #         return False
-                # except pygame.error:
-                #     pass
 
         except Exception as e:
             print(e)
