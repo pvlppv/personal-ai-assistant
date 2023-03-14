@@ -7,7 +7,7 @@ import openai
 
 openai.api_key = ''
 
-def takeCommand():
+def command():
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Слушаю...")
